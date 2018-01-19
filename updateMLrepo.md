@@ -17,7 +17,7 @@ git config --global user.email "ishjain1894@gmail.com"
 Check the configuration using command `git config --list`
 
 
-**Note:** A good introductory [tutorial video](https://www.youtube.com/watch?v=uR6G2v_WsRA) by David Mahler.
+**Note:** A good introductory [tutorial video](https://www.youtube.com/watch?v=uR6G2v_WsRA) (30 min) by David Mahler.
 It explains basics of GitHub like creating/cloning a repository, basic commands (git add and git commit), 
 and checking status and commit history (git status and git log). I recommend this video to anyone new to the GitHub environment.
 
@@ -40,7 +40,7 @@ It says there is one untracked file and suggests using `git add` command.
 ```
 git add .
 ```
-Note the dot at the end. It will add all the new files to the staging area. To add any specific file use `git add filename.pptx`. 
+Note the dot at the end (It is part of the code). This command will add all the new files to the staging area. To add any specific file use `git add filename.pptx`. 
 Now check the status using `git status`.
 
 ![alt text](https://drive.google.com/uc?id=1k5nmQNfe7o3tSCsX8olInJigZb6tQWnm "Title")
