@@ -1,14 +1,16 @@
 # Updating files in forked introml repo and creating pull request to original repo
 
-I provide step-by-step explaination for making changes and updating the forked repo and then contributing back to Prof. Rangan's repo by creating a pull request.
+I provide step-by-step explaination for making changes and updating the forked repo and then contributing back to Prof. Rangan's repo by creating a pull request. 
+
+Note: Students can also provide the [feedback using these instructions](https://github.com/ishjain/introml#feedback) without forking the original repository.
 
 ## 1. Updating files in forked introml repo
 
 Prereq1: Access to Git Bash
 
-Prereq2: Cloning of introml is done on local machine (e.g. `git clone https://github.com/ishjain/introml.git` )
+Prereq2: You forked the introml repository and cloned it on your local machine (e.g. `git clone https://github.com/`**`ishjain`**`/introml.git` ) Note that I used my GitHub username **ishjain**, which you must replace with your own username (not sdrangan, nor yaowangatpoly).
 
-Prereq3: Basic configuration of name and email address is done. E.g. 
+Prereq3: Basic configuration of name and email address is done using Git Bash command line. E.g. 
 ```
 git config --global user.name "Ish Kumar Jain"
 git config --global user.email "ishjain1894@gmail.com"
@@ -25,8 +27,9 @@ Now, suppose you made some changes in the files or created new files. Follow the
 
 ### Move to the introml directory
 ```
-cd \path_if_any\introml
+cd introml
 ```
+Note that you may need to provide a full path to the introml if introml folder is not in the same directory. check the current working directory using `pwd` and use command like `cd \path_to_intoml\introml`, with `path_to_introml` replaced by the path to the introml folder cloned using your own forked repository.
 ### Check the status
 ```bash
 git status
