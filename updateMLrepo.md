@@ -13,7 +13,7 @@ Prereq2: You forked the introml repository and cloned it on your local machine (
 Prereq3: Basic configuration of name and email address is done using Git Bash command line. E.g. 
 ```
 git config --global user.name "Ish Kumar Jain"
-git config --global user.email "ishjain1894@gmail.com"
+git config --global user.email "ish***@gmail.com"
 ```
 
 Check the configuration using command `git config --list`
